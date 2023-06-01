@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    color: rgb(199, 199, 199);
+    font-size: 3vw;
+    margin-bottom: 10px;
+}
+h1 strong{
+    color: white;
+    font-size: 4vw;
+}
+h2{
+    color: red;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+h3{
+    color: white;
+    font-size: 28px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/*section 2*/
+.nowPlaying{
+    margin-bottom: 100px;
+    height: 500px;
+}
+.nowPlaying__backgraund{
+    height: 100%;
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.5) 0%,#000000 100%),url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/12/theater-02.jpg);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backgraund__text a{
+    color: white;
+    font-weight: 600;
+    background: red;
+    margin-top: 50px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+    transition: all 1s;
+}
+.backgraund__text a:hover{
+    background-color: blueviolet;
+}
+
+
+
+
+/*section 3*/
+.contMovies{
+    height: auto;
+    padding-bottom: 100px;
+}
+.contMovies__movies{
+    justify-content: center;
+    display: grid;
+    row-gap: 50px;
+    column-gap: 30px;
+    grid-template-columns: repeat(auto-fit , minMax(250px , 300px));
+}
+.child__contIMG{
+    height: 400px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+.child__textInfo{
+    color: gray;
+    margin: 20px 0px;
+}
+.child__textInfo p{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.child__buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+}
+.child__buttons a{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    border: 2px solid red;
+    border-radius: 5px;
+    transition: all 1s;
+}
+.child__buttons a:hover{
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+}

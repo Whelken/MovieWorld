@@ -1,0 +1,592 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+    background-color: black;
+}
+img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.contentAll2{
+    max-width: 2000px;
+    margin: auto;
+}
+
+
+
+/*box number 2*/
+/*The animation of  the section */
+.contOfAnimation{
+    position: relative;
+    z-index: 1;
+}
+.contOfAnimation__content{
+    position: relative;
+    overflow: hidden;
+    height: 650px;
+}
+.save__imgCont1{
+    background-image: linear-gradient(180deg,rgba(0,0,0,0) 0%,#000000 100%),url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/12/theater-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #7EBEC5;
+    width: 100%;
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+}
+
+.save__imgCont2{
+    background-image: linear-gradient(180deg,rgba(0,0,0,0) 0%,#000000 100%),url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/09/movie-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #7EBEC5;
+    transition: all 1s;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+}
+
+.save__imgCont3{
+    background-image: linear-gradient(180deg,rgba(0,0,0,0) 0%,#000000 100%),url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/09/movie-05.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #7EBEC5;
+    transition: all 1s;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+}
+
+
+.imgCont1__con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con__tx{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 650px;
+}
+
+.tx__text1{
+    max-width: 700px;
+    transform: translateY(100px);
+    transition: all 1s;
+}
+.tx__text2{
+    max-width: 700px;
+    transform: translateY(100px);
+    transition: all 1s;
+}
+.tx__text3{
+    max-width: 700px;
+    transform: translateY(100px);
+    transition: all 1s;
+}
+
+.tx__text1 h2{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+.tx__text2 h2{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+.tx__text3 h2{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.text__p{
+    color: white;
+    font-size: 25px;
+}
+.text__p3{
+    color: white;
+    font-size: 15px;
+
+}
+
+.text__cb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+    width: 150px;
+    height: 60px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: background-color 1s;
+}
+.text__cb a{
+    color: white;
+    font-size: 20px;
+}
+
+.text__im{
+    width: 30px;
+    height: 30px;
+
+}
+
+/*Buttons scroll*/
+.content__scroll{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    overflow: hidden;
+    z-index: 3;
+
+}
+
+.left-scroll{
+    transition:  all 0.6s;
+}
+.right-scroll{
+    transition: all 0.6s;
+}
+
+.content__pointsScroll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 3;
+    gap: 20px;
+    bottom: 10%;
+    width: 100%;
+}
+.content__pointsScroll a{
+    padding: 4px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 85) ;
+}
+/*contOfAnimation sensors*/
+.contOfAnimation__sensors{
+    position: absolute;
+    bottom: 80%;
+    left: 50%;
+}
+.contOfAnimation__sensors div{
+    width: 1px;
+    height: 1px;
+}
+
+
+/*section 3*/
+.buttons{
+    margin-top: 30px;
+    padding: 50px 0px;
+}
+.buttons__cont{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.buttons__cont a{
+    padding: 20px 45px;
+    color: white;
+    font-weight: 600;
+    border: 2px solid red;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.buttons__cont a:hover{
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+}
+
+
+/*section 4*/
+.moreText{
+    padding-top: 60px;
+    margin: auto;
+    color: white;
+}
+
+.moreText__cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.cont__number1{
+    max-width: 300px;
+}
+.cont__number1 h3{
+    color: rgb(127, 49, 201);
+
+}
+.cont__number1 h2{
+    color: rgb(216, 216, 216);
+    font-weight: 100;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.cont__number1 h2 strong{
+    color: white;
+    font-weight: 900;
+}
+.cont__number1 p{
+    color: gray;
+    font-size: 20px;
+}
+
+.cont__number2{
+    border: 3px solid rgb(127, 49, 201);
+}
+.number2__content{
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    max-width: 700px;
+}
+
+.content__con{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content__con div h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.content__con div p{
+    color: rgb(223, 223, 223);
+}
+
+.content__con2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content__con2 div h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.content__con2 div p{
+    color: rgb(223, 223, 223);
+}
+
+
+
+
+
+
+/*Section 5*/
+
+.conSection5{
+    padding: 100px 0px ;
+}
+.conSection5__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.content__imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 600px;
+    height: 500px;
+
+}
+
+.imgs__conImg1{
+    position: absolute;
+    
+}
+.imgs__conImg1 div{
+    width: 300px;
+    height: 500px;
+}
+
+
+.imgs__conImg2{
+    position: relative;
+    top: 40%;
+    left: -19%;
+}
+.imgs__conImg2 div{
+    width: 200px;
+    height: 300px;
+}
+
+
+.content__moreInfoT{
+    margin-top: 120px;
+    width: 400px;
+    color: white;
+
+}
+
+.moreInfoT__text h2{
+    color: red;
+    font-size: 16px;
+}
+.moreInfoT__text h3{
+    color: rgb(226, 226, 226);
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.moreInfoT__text h3 strong{
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+}
+.moreInfoT__text p{
+    color: gray;
+    line-height: 27px;
+}
+
+.moreInfoT__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    width: 170px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50px;
+    margin-top: 30px;
+    transition: all 1s;
+}
+.moreInfoT__button:hover{
+    background-color: blueviolet;
+}
+
+.moreInfoT__button a{
+    color: white;
+}
+
+
+
+
+
+
+/*section 6*/
+.conSection6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 100px 0px;
+    margin: auto;
+    max-width: 1600px;
+    max-height: 700px;
+    
+}
+
+.conSection6__content1{
+    width: 90%;
+}
+.conSection6__content1 h3{
+    color: red;
+    font-size: 15px;
+
+}
+.conSection6__content1 h2{
+    color: rgb(207, 207, 207);
+    font-size: 30px;
+}
+.conSection6__content1 h2 strong{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+.conSection6__content2{
+    position: relative;
+    overflow: hidden;
+    height: 90vh;
+    width: 90%;
+    color: white;
+    background-color: #7EBEC5;
+}
+
+
+
+.content2__cont{
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+.cont__imgs{
+    position: relative;
+    height: 100%;
+}
+.imgs__conmg1 {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/12/cinema-16.jpg);
+    transition: all 1s;
+}
+.imgs__conmg2 {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/09/the-movie-poster-03.jpg);
+    transition: all 1s;
+}
+.imgs__conmg3 {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/12/still-3.jpg);
+    transition: all 1s;
+}
+
+.content2__scroll{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    z-index: 3;
+}
+.content2__scroll .left-scroll1{
+    transform: translateX(-40px);
+    transition: all 1s;
+}
+.content2__scroll .right-scroll1{
+    transform: translateX(40px);
+    transition: all 1s;
+}
+
+
+
+.content2__pointScroll{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 90%;
+}
+.content2__pointScroll a{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.content2__pointScroll a:hover{
+    cursor: pointer;
+}
+.content2__sensors{
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    right: 50%;
+}
+.content2__sensors div{
+    width: 1px;
+    height: 1px;
+}
+
+
+
+.conImg1__contText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #00000075;
+}
+.contText__text1{
+    padding: 50px;
+    transform: translateY(100px);
+    opacity: 0.4;
+    transition: all 1s;
+}
+.contText__text1 h2{
+    font-size: 5vw;
+    margin-bottom: 20px;
+}
+.contText__text1 p{
+    font-size: 1.25rem;
+
+}
+
+.contText__text2{
+    padding: 50px;
+    transform: translateY(100px);
+    opacity: 0.4;
+    transition: all 1s;
+}
+.contText__text2 h2{
+    font-size: 5vw;
+    margin-bottom: 20px;
+}
+.contText__text2 p{
+    font-size: 1.25rem;
+
+}
+
+.contText__text3{
+    padding: 50px;
+    transform: translateY(100px);
+    opacity: 0.4;
+    transition: all 1s;
+}
+.contText__text3 h2{
+    font-size: 5vw;
+    margin-bottom: 20px;
+}
+.contText__text3 p{
+    font-size: 1.25rem;
+
+}
+
+
+
