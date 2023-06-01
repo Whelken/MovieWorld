@@ -25,7 +25,9 @@ p{
     max-width: 2000px;
     margin: auto;
 }
-
+.h3{
+    color: white;
+}
 /*section 2*/
 .nowPlaying{
     margin-bottom: 100px;

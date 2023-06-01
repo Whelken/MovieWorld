@@ -11,7 +11,7 @@ const makeMovies = async () => {
                  <div class="child__contIMG">
                      <img src="${img}" alt="">
                  </div>
-                 <h3>${name}</h3>
+                 <h3 class="h3">${name}</h3>
                  <div class="child__textInfo">
                      <p>${time}</p>
                      <p>${opening}</p>
