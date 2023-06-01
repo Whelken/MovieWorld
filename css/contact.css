@@ -1,0 +1,286 @@
+
+/*section 2*/
+.contact{
+    display: flex;
+    max-width: 1500px;
+    margin: auto;
+}
+.contact__img{
+    background-image:url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/12/theater-02.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 1000px;
+}
+.contact__contMessage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.contMessage__cont{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    margin: 100px 0px;
+    gap: 70px;
+}
+.contMessage__title h1{
+    color: red;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.contMessage__title h2{
+    color: rgb(172, 172, 172);
+    font-size: 8vh;
+}
+.contMessage__title h2 strong{
+    font-weight: 900;
+    color: white;
+}
+.contMessage__info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-between;
+}
+.info__infoPart2{
+    max-width: 300px;
+}
+.contMessage__info h3{
+    color: rebeccapurple;
+    margin-bottom: 7px;
+}
+.contMessage__info span{
+    color: white;
+    font-weight: 700;
+}
+.contMessage__info p{
+    color: white;
+    font-weight: 700;
+}
+
+.contMessage__message{
+    padding: 50px;
+    border: 3px solid rebeccapurple;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+input{
+    text-align: center;
+    padding: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: #2e2e2e;
+}
+#fullName{
+    width: 40%;
+}
+#email{
+    width: 50%;
+}
+textarea{
+    text-align: center;
+    padding: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    background-color: #2e2e2e;
+}
+button{
+    width: 100px;
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-weight: 800;
+    border-radius: 3px;
+    background-color: blueviolet;
+}
+button:focus{
+    background-color: white;
+    color: rebeccapurple;
+}
+
+@media (max-width:830px){
+    .contact__img{
+        display: none;
+    }
+    #fullName{
+        width: 100%;
+    }
+    #email{
+        width: 100%;
+    }
+}
+/*section 3*/
+.nowPlaying{
+    margin-bottom: 100px;
+    height: 500px;
+}
+.nowPlaying__backgraund{
+    height: 100%;
+    background-image: linear-gradient(180deg,#000000 0%,rgba(0,0,0,0.5) 100%),url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/09/movie-05.jpg);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backgraund__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+    gap: 20px;
+}
+.backgraund__text h3{
+    color: red;
+    font-size: 4vh;
+}
+.backgraund__text h1{
+    color: rgb(224, 224, 224);
+    font-size: 7vh;
+}
+.backgraund__text strong{
+    color: white;
+    font-size: 8vh;
+    font-weight: 800;
+}
+.backgraund__text p{
+    font-weight: 700;
+    line-height: 30px;
+    color: rgb(206, 206, 206);
+}
+.backgraund__text a{
+    color: white;
+    font-weight: 600;
+    background: red;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+    transition: all 1s;
+}
+.backgraund__text a:hover{
+    background-color: blueviolet;
+}
+
+
+/*section 4*/
+.answers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.answers__title{
+    text-align: center;
+}
+.answers__title h1{
+    color: red;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.answers__title h2{
+    color: rgb(196, 196, 196);
+    font-size: 5vh;
+}
+.answers__title h2 strong{
+    color: white;
+    font-size: 7vh;
+}
+.answers__cont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    max-width: 1000px;
+}
+.answers__cont div{
+    background-color: rgb(36, 36, 36);
+}
+.answers__cont div p{
+    padding: 10px;
+    color: rgb(124, 124, 124);
+    line-height: 25px;
+    font-weight: 600;
+}
+.answers__cont div:hover{
+    cursor: pointer;
+}
+.question__askIcon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.question__askIcon h3{
+    color: white;
+    font-size: 16px;
+}
+.askIcon__img{
+    width: 25px;
+    height: 25px;
+}
+
+.p1{
+    display: none;
+}
+.p2{
+    display: none;
+}
+.p3{
+    display: none;
+}
+.p4{
+    display: none;
+}
+.p5{
+    display: none;
+}
+.p6{
+    display: none;
+}
+.p1Move{
+    display: block;
+}
+.p2Move{
+    display: block;
+}
+.p3Move{
+    display: block;
+}
+.p4Move{
+    display: block;
+}
+.p5Move{
+    display: block;
+}
+.p6Move{
+    display: block;
+}
+
+
+/*section 5*/
+.map{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+.map__container{
+    width: 90%;
+    height: 70vh;
+}

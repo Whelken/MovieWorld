@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+/*section 2*/
+.nowPlaying{
+    margin-bottom: 100px;
+    height: 500px;
+}
+.nowPlaying__backgraund{
+    height: 100%;
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.5) 0%,#000000 100%),url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/12/theater-02.jpg);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backgraund__text a{
+    color: white;
+    font-weight: 600;
+    background: red;
+    margin-top: 50px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+    transition: all 1s;
+}
+.backgraund__text h1{
+    color: rgb(199, 199, 199);
+    font-size: 3vw;
+    margin-bottom: 10px;
+}
+.backgraund__text h1 strong{
+    color: white;
+    font-size: 4vw;
+}
+.backgraund__text h2{
+    color: rgb(133, 133, 133);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.backgraund__text h3{
+    color: white;
+    font-size: 28px;
+}
+.backgraund__text a:hover{
+    background-color: blueviolet;
+}
+/*section 4*/
+.moreText{
+    margin: auto;
+    color: white;
+}
+
+.moreText__cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.cont__number1{
+    max-width: 300px;
+}
+.cont__number1 h3{
+    color: rgb(127, 49, 201);
+
+}
+.cont__number1 h2{
+    color: rgb(216, 216, 216);
+    font-weight: 100;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.cont__number1 h2 strong{
+    color: white;
+    font-weight: 900;
+}
+.cont__number1 p{
+    color: gray;
+    font-size: 20px;
+}
+
+.cont__number2{
+    border: 3px solid rgb(127, 49, 201);
+}
+.number2__content{
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    max-width: 700px;
+}
+
+.content__con{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content__con div h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.content__con div p{
+    color: rgb(223, 223, 223);
+}
+
+.content__con2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content__con2 div h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.content__con2 div p{
+    color: rgb(223, 223, 223);
+}
+
+/*section 4*/
+.story{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+}
+.story__cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 600px;
+    margin: 10px;
+    padding: 10px;
+}
+.story__cont h5{
+    color: red;
+    font-size: 20px;
+}
+.story__cont p{
+    text-align: center;
+    line-height: 25px;
+    color: rgb(146, 146, 146);
+}
+
+/*section 5*/
+.membership{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+.membership__title h1{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+}
+.membership__title h2{
+    color: rgb(175, 175, 175);
+    font-size: 5vh;
+}
+.membership__title h2 strong{
+    color: white;
+    font-size: 6vh;
+}
+
+.membership__content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+.contente__sections1{
+    color: white;
+    max-width: 200px;
+    padding: 60px;
+    border: 3px solid gray;
+}
+.contente__sections1 div{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 10px;
+}
+.contente__sections1 p{
+    width: 90%;
+}
+
+.contente__sections2{
+    color: white;
+    max-width: 200px;
+    padding: 60px;
+    border: 3px solid rebeccapurple;
+}
+.contente__sections2 div{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 10px;
+}
+.contente__sections2 p{
+    width: 90%;
+}
+
+.contente__sections3{
+    color: white;
+    max-width: 200px;
+    padding: 60px;
+    border: 3px solid red;
+}
+.contente__sections3 div{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 10px;
+}
+.contente__sections3 p{
+    width: 90%;
+}

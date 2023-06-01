@@ -1,0 +1,67 @@
+[
+    {
+        "name":"Downtown",
+        "movie":"../Imgs/movies/videos/viseoAll.mp4",
+        "time":"1hr 35min | PG",
+        "opening":"Released Aug 12, 2023",
+        "img":"../Imgs/movies/Downtown.jpg",
+        "id":"0"
+    },
+    {
+        "name":"Skyscrapers",
+        "movie":"../Imgs/movies/videos/viseoAll.mp4",
+        "time":"1hr 35min | PG",
+        "opening":"Released Aug 12, 2023",
+        "img":"../Imgs/movies/Skyscrapers.jpg",
+        "id":"1"
+    },
+    {
+        "name":"Fall",
+        "movie":"../Imgs/movies/videos/viseoAll.mp4",
+        "time":"1hr 35min | PG",
+        "opening":"Released Aug 12, 2023",
+        "id":"2",
+        "img":"../Imgs/movies/Fall.jpg"
+    },
+    {
+        "name":"Lights Out",
+        "movie":"../Imgs/movies/videos/viseoAll.mp4",
+        "time":"1hr 35min | PG",
+        "opening":"Released Aug 12, 2023",
+        "img":"../Imgs/movies/LightsOut.jpg",
+        "id":"3"
+    },
+    {
+        "name":"Headlight",
+        "movie":"../Imgs/movies/videos/viseoAll.mp4",
+        "time":"1hr 35min | PG",
+        "opening":"Released Aug 12, 2023",
+        "img":"../Imgs/movies/Headlight.jpg",
+        "id":"4"
+    },
+    {
+        "name":"Cabin",
+        "movie":"../Imgs/movies/videos/viseoAll.mp4",
+        "time":"1hr 35min | PG",
+        "opening":"Released Aug 12, 2023",
+        "img":"../Imgs/movies/Cabin.jpg",
+        "id":"5"
+    },
+    {
+        "name":"Bridge",
+        "movie":"../Imgs/movies/videos/viseoAll.mp4",
+        "time":"1hr 35min | PG",
+        "opening":"Released Aug 12, 2023",
+        "img":"../Imgs/movies/Bridge.jpg",
+        "id":"6"
+    },
+    {
+        "name":"The Valley",
+        "movie":"../Imgs/movies/videos/viseoAll.mp4",
+        "time":"1hr 35min | PG",
+        "opening":"Released Aug 12, 2023",
+        "img":"../Imgs/movies/TheValley.jpg",
+        "id":"7"
+    }
+
+]
