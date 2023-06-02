@@ -41,7 +41,18 @@ const mostrarEnCar = ()=>{
     }
 }
 mostrarEnCar()
-const deleteMovie = id => localStorage.removeItem(id);
+
+const saveCleanShow = async (id)=>{
+    await setMoviesToLocalS(id)
+    contSeeLater.innerHTML =``
+    await mostrarEnCar()
+}
+
+const deleteMovie = (id) => {
+    localStorage.removeItem(id);
+    contSeeLater.innerHTML =``
+    mostrarEnCar()
+}
 
 //wast the movie
 const wastMovie = document.querySelector(".wastingMovie");

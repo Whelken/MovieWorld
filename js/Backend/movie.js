@@ -17,7 +17,7 @@ const makeMovies = async () => {
                      <p>${opening}</p>
                  </div>
                  <div class="child__buttons">
-                     <a onclick="setMoviesToLocalS(${id})">see later</a>
+                     <a onclick="saveCleanShow(${id})">see later</a>
                      <a class="wast" onclick="noneAll(),wastingMovie(${id})">Wast</a>
                  </div>
              </div>`;
