@@ -68,7 +68,7 @@ const wastingMovie = async (id)=>{
                 </a>
             </div>
             <div class="content__video">
-               <video src="${movie.movie}" controls></video>
+               <video  class="video__video" src="${movie.movie}" controls></video>
             </div>
         </div>
     `
@@ -83,4 +83,5 @@ const noneAll  = ()=>{
 const noneMovie  = ()=>{
     document.querySelector(".Allcontainer").style.display = "block";
     document.querySelector(".wastingMovie").style.display = "none"
+    document.querySelector(".video__video").pause()
 }
